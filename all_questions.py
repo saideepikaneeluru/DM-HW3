@@ -74,19 +74,19 @@ def question2():
     answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "After the k-means algorithm finishes, each shaded circle will contain a single cluster centroid positioned at its center."
 
     # type: bool (True/False)
     answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "After the k-means algorithm finishes, certain final clusters may contain points from both shaded regions."
 
     # type: bool (True/False)
     answers["(c)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "After the k-means algorithm completes, the final clustering may include an empty cluster."
 
     return answers
 
@@ -257,28 +257,27 @@ def question8():
     answers["(a) Matrix 1"] = "Dataset-z"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 1"] = ""
+    answers["(a) explain diag entries, Matrix 1"] = "Low distances (blue) on the diagonal suggest well-separated clusters."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 1"] = ""
-
+    answers["(a) explain non-diag entries, Matrix 1"] = "Different colors indicate varied distances between points, implying distinct cluster distributions."
     # type: string
     answers["(a) Matrix 2"] = "Dataset-x"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 2"] = ""
+    answers["(a) explain diag entries, Matrix 2"] = "Low distances (blue) on the diagonal indicate well-separated clusters."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 2"] = ""
+    answers["(a) explain non-diag entries, Matrix 2"] = "High distances (other colors) imply clear boundaries between clusters."
 
     # type: string
     answers["(a) Matrix 3"] = "Dataset-y"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 3"] = ""
+    answers["(a) explain diag entries, Matrix 3"] = "Diagonal entries represent distances of points from themselves."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 3"] = ""
+    answers["(a) explain non-diag entries, Matrix 3"] = "Regions of green and yellow suggest overlapping or less distinct clusters."
 
     # type: string
     answers["(b) Row 1"] = "Cluster-a"
@@ -293,16 +292,16 @@ def question8():
     answers["(b) Row 4"] = "Cluster-d"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "Row 1 corresponds to Cluster-a, indicating distances between points within this cluster."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = "Row 1 corresponds to Cluster-b, indicating distances between points within this cluster."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "Row 1 corresponds to Cluster-c, indicating distances between points within this cluster."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = ""
+    answers["(b) Row 4 explain"] = "Row 1 corresponds to Cluster-d, indicating distances between points within this cluster."
 
     return answers
 
@@ -329,7 +328,7 @@ def question9():
     answers["(e)"] = ['partitional', 'exclusive', 'complete']
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "In this scenario, partitional clustering is suitable as each student belongs to one grade category. The clustering is exclusive as each student is assigned to only one grade category. The classification is complete as it covers all students in the department."
 
     return answers
 
